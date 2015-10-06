@@ -1,4 +1,4 @@
-var pointInPolygon = require('./api/utils/point-in-polygon');
+var pointInPolygon = require('../api/utils/point-in-polygon');
 
 console.log(1, pointInPolygon(7.466, 46.9750, [
 7.457,

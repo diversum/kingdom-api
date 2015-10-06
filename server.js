@@ -1,8 +1,8 @@
 import http from 'http'
 import colors from 'colors'
-import api from './api'
+import api from './lib'
 
-import fetchHomegateData from './api/utils/fetch-homegate'
+import fetchHomegateData from './lib/utils/fetch-homegate'
 
 let port = process.env.PORT || 8001
 
