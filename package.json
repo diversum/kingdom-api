@@ -24,13 +24,13 @@
   "dependencies": {
     "babel": "^5.8.23",
     "body-parser": "^1.14.1",
-    "cfenv": "^1.0.2",
     "colors": "^1.1.2",
     "envify": "^3.4.0",
     "express": "^4.13.3",
     "lodash": "^3.10.1",
     "moment": "^2.10.6",
     "mongodb": "^2.0.45",
+    "progress": "^1.1.8",
     "superagent": "^1.4.0",
     "superagent-cache": "^1.0.3",
     "superagent-promise": "^1.0.3"
