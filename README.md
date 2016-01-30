@@ -20,7 +20,7 @@ $ docker run -d -p 80:8001 --link mongo-instance:mongodb diversum/kingdom-api
 Don't forget to provide these environment variables:
 
 |name||default|description|
-|--|--|--|--|
+|---|---|---|---|
 |`HOMEGATE_API_BASE`|*mandatory*|https://api-2445581357976.apicast.io:443|The Homegate API base url|
 |`HOMEGATE_AUTH`|*mandatory*|f5c7eb019fb2db2687a960dbb2bec5bf|The Homegate auth key|
 |`HOMEGATE_REFRESH_RATE`|*optional*|3480|The interval in which the flats cache is re-fetched|
